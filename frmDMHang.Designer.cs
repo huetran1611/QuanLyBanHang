@@ -1,6 +1,6 @@
 ﻿namespace QuanLyBanHang
 {
-    partial class Form1
+    partial class frmDMHang
     {
         /// <summary>
         /// Required designer variable.
@@ -28,13 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // frmDMHang
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Name = "frmDMHang";
+            this.Text = "frmDMHang";
+            this.Load += new System.EventHandler(this.frmDMHang_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
     }
 }
-
